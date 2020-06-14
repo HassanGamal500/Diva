@@ -1,0 +1,48 @@
+html,body {
+    direction: rtl;
+}
+.vollkorn, 
+.nav-link,
+h1, h2, h3, h4, h5, 
+button {
+    font-family: 'Amiri' !important ;
+}
+.carousel-caption {
+    left: unset;
+    right: 9em;
+}
+.slider {
+    direction: ltr !important;
+}
+.subscribe-form button {
+    border-radius: unset;
+    border-bottom-left-radius: .25em;
+    border-top-left-radius: .25em;
+}
+.form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label, .form-group.label-static label.control-label {
+    right: 0;
+    left: unset;
+}
+.account-form .icon {
+    left: 5em !important;
+    right: unset !important;
+}
+.avatar-upload .avatar-edit {
+    left: 1em;
+    right: unset;
+}
+.fa-phone {
+    transform: rotate(345deg) !important;
+}
+.icon {
+    left: 0;
+    right: unset !important;
+}
+
+#customInput {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+.ltr-form {
+    direction:ltr!important;
+}

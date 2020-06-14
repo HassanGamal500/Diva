@@ -1,0 +1,135 @@
+body,
+html
+{
+    direction:rtl;
+}
+
+.main-header .logo{
+    float:right;
+}
+
+.main-header>.navbar{
+   margin-right: 230px;
+   margin-left:0;
+}
+
+.main-header .sidebar-toggle {
+    float:right;
+}
+
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu a {
+    margin: 0 0 0 30px;
+}
+
+.main-header .navbar-custom-menu, 
+.main-header .navbar-right{
+    float:left;
+}
+.left-side, 
+.main-sidebar{
+    right:0;
+}
+
+.content-wrapper, 
+.main-footer, 
+.right-side {
+    margin-right: 230px;
+    margin-left:0;
+}
+
+.skin-blue .wrapper {
+    background-color: #FFF;
+}
+
+.content-header>.breadcrumb{
+    left: 10px;
+    right:auto;
+}
+
+.small-box .icon{
+    left: 10px;
+    right:auto;
+}
+
+.box-header>.box-tools {
+    left: 10px;
+    right:auto;
+}
+
+.products-list .product-info {
+    margin-right: 60px;
+}
+
+.label{
+    margin-left: 1em;
+}
+
+.col-md-1, 
+.col-md-10, 
+.col-md-11, 
+.col-md-12, 
+.col-md-2, 
+.col-md-3, 
+.col-md-4, 
+.col-md-5, 
+.col-md-6, 
+.col-md-7, 
+.col-md-8, 
+.col-md-9 {
+    float: right;
+}
+
+
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu,
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right) {
+        display: block!important;
+        position: absolute;
+        width: 180px;
+        right: 50px
+    }
+
+
+ .navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+    position: absolute;
+    right: auto;
+    left: 0em;
+}  
+
+.navbar-nav {
+    padding-left:2em;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu>li>a>span {
+    border-top-left-radius: 4px;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu>li>.treeview-menu {
+    border-bottom-left-radius: 4px;
+}
+
+
+/*Toggel-Click*/
+@media (min-width: 768px){
+    .sidebar-mini.sidebar-collapse 
+    .main-header .navbar {
+        margin-right: 50px;
+        margin-left: 0;    
+        
+    }
+    
+    .sidebar-mini.sidebar-collapse .content-wrapper, 
+    .sidebar-mini.sidebar-collapse .main-footer, 
+    .sidebar-mini.sidebar-collapse .right-side {
+        margin-left: 0px!important;
+        margin-right: 50px;
+    }
+    
+    .sidebar-menu>li>a>.fa, 
+    .sidebar-menu>li>a>.glyphicon, 
+    .sidebar-menu>li>a>.ion{
+        margin-right: 1em;
+    }
+
+
+}
+
